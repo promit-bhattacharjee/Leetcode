@@ -1,0 +1,25 @@
+{
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.snippetSuggestions": "inline",
+    "accessibility.signals.lineHasInlineSuggestion": {
+        "sound": "off"
+    },
+    "github.copilot.chat.languageContext.fix.typescript.enabled": false,
+    "editor.inlineSuggest.edits.allowCodeShifting": "always",
+    "emmet.showAbbreviationSuggestions": false,
+    "editor.inlineSuggest.edits.renderSideBySide": "auto",
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.edits.showLongDistanceHint": false,
+    "editor.inlineSuggest.edits.showCollapsed": false,
+    "editor.inlineSuggest.minShowDelay": 20,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
+    "github.copilot.nextEditSuggestions.fixes": false,
+    "python.analysis.aiCodeActions": {
+
+        "implementAbstractClasses": true,
+        "generateSymbol": true,
+        "convertFormatString": true
+    }
+}

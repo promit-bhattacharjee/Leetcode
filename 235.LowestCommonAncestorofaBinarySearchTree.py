@@ -5,6 +5,9 @@
 #         self.left = None
 #         self.right = None
 
+from turtle import left, right
+
+
 class Solution:
     def path_finder(self, root, target_val, path):
         if not root:
@@ -42,3 +45,14 @@ class Solution:
         if not root:
             return root
         def helper(node):
+            if not node or node == p or node == q:
+                return node
+
+            left = self.lowestCommonAncestor(root.left, p, q)
+            right = self.lowestCommonAncestor(root.right, p, q)
+            if left and right:
+                return root
+        if left:
+            return left
+        elif right:
+            return right
