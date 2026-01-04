@@ -6,7 +6,6 @@ class Solution:
             target[char] = target.get(char, 0) + 1
         window={}
         left=0
-        window[s[left]]=1
         window_count=0
         target_count=len(target)
         res,res_len=[-1,-1],float("infinity")
