@@ -25,6 +25,6 @@ class Solution:
             for go_u in range(bottom,top-1,-1):
                 ans.append(matrix[go_u][left])
             left+=1
-        
+        return ans
 
         
