@@ -9,7 +9,6 @@ class TreeNode:
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         if not root: return 0
-        count=0
         def dfs(node,parent_val):
             if not node: return 0
             res=1 if node.val>=parent_val else 0
