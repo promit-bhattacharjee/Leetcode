@@ -21,5 +21,7 @@
         "implementAbstractClasses": true,
         "generateSymbol": true,
         "convertFormatString": true
-    }
+    },
+    "python.analysis.typeEvaluation.strictListInference": true,
+    "python.analysis.typeEvaluation.strictDictionaryInference": true
 }
